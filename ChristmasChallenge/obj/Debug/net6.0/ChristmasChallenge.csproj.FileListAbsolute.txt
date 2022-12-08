@@ -1,0 +1,15 @@
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.exe
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.deps.json
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.runtimeconfig.json
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.dll
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.pdb
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.csproj.AssemblyReference.cache
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.AssemblyInfoInputs.cache
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.AssemblyInfo.cs
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.csproj.CoreCompileInputs.cache
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.dll
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\refint\ChristmasChallenge.dll
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.pdb
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.genruntimeconfig.cache
+C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ref\ChristmasChallenge.dll
