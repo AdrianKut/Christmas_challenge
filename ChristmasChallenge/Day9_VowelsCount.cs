@@ -15,7 +15,7 @@ namespace ChristmasChallenge
             List<Address> addresses = Address.PrepareAddresses()
                 .Distinct(new DistinctAddressesComparer()).ToList();
 
-            Regex regexVowels = new Regex("[aeiou]", RegexOptions.IgnoreCase);
+            Regex regexVowels = new Regex("[aeiouy]", RegexOptions.IgnoreCase);
             int vowelsCounter = 0;
             int extraPay = 2;
 
