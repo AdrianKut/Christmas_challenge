@@ -63,7 +63,7 @@ namespace ChristmasChallenge
             + regexVowels.Matches(x.HouseNumber).Count()
             );
 
-            Console.Write($"\nExtra payment: {(vowelsCounter * extraPay)}");
+            Console.Write($"Extra payment: {(vowelsCounter * extraPay)}");
         }
     }
 }
