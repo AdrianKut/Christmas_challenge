@@ -13,3 +13,18 @@ C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\re
 C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.pdb
 C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.genruntimeconfig.cache
 C:\Users\adria\Desktop\ChristmasChallenge\ChristmasChallenge\obj\Debug\net6.0\ref\ChristmasChallenge.dll
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.exe
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.deps.json
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.runtimeconfig.json
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.dll
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\bin\Debug\net6.0\ChristmasChallenge.pdb
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.csproj.AssemblyReference.cache
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.AssemblyInfoInputs.cache
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.AssemblyInfo.cs
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.csproj.CoreCompileInputs.cache
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.dll
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\refint\ChristmasChallenge.dll
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.pdb
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ChristmasChallenge.genruntimeconfig.cache
+C:\Users\AiXen\Desktop\Nowy folder\Christmas_challenge\ChristmasChallenge\obj\Debug\net6.0\ref\ChristmasChallenge.dll

@@ -4,22 +4,22 @@
     {
         public string Street { get; private set; }
         public string HouseNumber { get; private set; }
-        public int NumberOfGifts { get; private set; }
+        public int FlatNumber { get; private set; }
         public string City { get; private set; }
         public string StreetCode { get; private set; }
 
-        public Address(string street, string houseNumber, int numberOfGifts, string city, string streetCode)
+        public Address(string street, string houseNumber, int flatNumber, string city, string streetCode)
         {
             this.Street = street;
             this.HouseNumber = houseNumber;
-            this.NumberOfGifts = numberOfGifts;
+            this.FlatNumber = flatNumber;
             this.City = city;
             this.StreetCode = streetCode;
         }
 
         public void ShowAddress()
         {
-            Console.WriteLine($"Street: {Street}, HouseNumber: {HouseNumber}, Gifts: {NumberOfGifts}" +
+            Console.WriteLine($"Street: {Street}, HouseNumber: {HouseNumber}, Gifts: {FlatNumber}" +
                 $", City: {City}, Street: {StreetCode} ");
         }
 
@@ -38,6 +38,11 @@
             addresses.Add(new Address("Cukierkowa", "23", 5, "Poznan", "02-326"));
 
             return addresses;
+        }
+
+        public override string? ToString()
+        {
+            return new string($"{Street} {HouseNumber}/{FlatNumber}\n{City} {StreetCode}");    
         }
     }
 }

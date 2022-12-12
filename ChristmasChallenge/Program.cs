@@ -24,5 +24,9 @@ public class Program
         ShowDayMessage(11);
         Day11_ChooseEnvelope day11 = new Day11_ChooseEnvelope();
         day11.ShowResult();
+
+        ShowDayMessage(12);
+        Day12_PrintLabels day12 = new Day12_PrintLabels();
+        day12.ShowResult();
     }
 }
