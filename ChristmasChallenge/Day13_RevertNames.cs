@@ -14,7 +14,7 @@ namespace ChristmasChallenge
 
         public string Reverse(string text)
         {
-            return new string(text.ToString().Reverse().ToArray());
+            return new string(text.Reverse());
         }
 
         public void ShowResult()
