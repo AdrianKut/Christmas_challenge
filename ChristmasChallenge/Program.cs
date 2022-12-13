@@ -28,5 +28,9 @@ public class Program
         ShowDayMessage(12);
         Day12_PrintLabels day12 = new Day12_PrintLabels();
         day12.ShowResult();
+
+        ShowDayMessage(13);
+        Day13_RevertNames day13 = new Day13_RevertNames();
+        day13.ShowResult();
     }
 }
