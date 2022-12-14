@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.Globalization;
+using System.Text;
 
 namespace ChristmasChallenge
 {
@@ -26,14 +27,10 @@ namespace ChristmasChallenge
             names.Add("Kemot");
             names.Add("Lahcim");
 
-            List<String> reversedNames = new List<String>();
-            for (int i = 0; i < names.Count; i++)
-            {
-                string currentName = Reverse(names[i].ToLower());
-                reversedNames.Add(currentName[0].ToString().ToUpper() + currentName.Substring(1));
-            }
+            CultureInfo cultureInfo = Thread.CurrentThread.CurrentCulture;
+            TextInfo textInfo = cultureInfo.TextInfo;
 
-            reversedNames.ForEach(x => Console.WriteLine(x));
+            names.ForEach(name => Console.WriteLine((Reverse(name.ToUpper())[0] + (Reverse(name.ToLower()).Substring(1)))));
         }
     }
 }

@@ -32,5 +32,9 @@ public class Program
         ShowDayMessage(13);
         Day13_RevertNames day13 = new Day13_RevertNames();
         day13.ShowResult();
+
+        ShowDayMessage(14);
+        Day14_SplitPresentsList day14 = new Day14_SplitPresentsList();
+        day14.ShowResult();
     }
 }

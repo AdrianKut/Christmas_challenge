@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AiXen\\Desktop\\Nowy folder\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj": {}
+    "C:\\Users\\AiXen\\Desktop\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AiXen\\Desktop\\Nowy folder\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj": {
+    "C:\\Users\\AiXen\\Desktop\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AiXen\\Desktop\\Nowy folder\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\AiXen\\Desktop\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj",
         "projectName": "ChristmasChallenge",
-        "projectPath": "C:\\Users\\AiXen\\Desktop\\Nowy folder\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj",
+        "projectPath": "C:\\Users\\AiXen\\Desktop\\Christmas_challenge\\ChristmasChallenge\\ChristmasChallenge.csproj",
         "packagesPath": "C:\\Users\\AiXen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AiXen\\Desktop\\Nowy folder\\Christmas_challenge\\ChristmasChallenge\\obj\\",
+        "outputPath": "C:\\Users\\AiXen\\Desktop\\Christmas_challenge\\ChristmasChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
