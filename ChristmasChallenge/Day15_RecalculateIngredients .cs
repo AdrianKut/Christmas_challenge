@@ -78,10 +78,10 @@
             double roundSurfaceArea = roundBakingSheet.GetSurfaceArea();
 
             double converter = GetBakingSheetConverter(rectangleSurfaceArea, roundSurfaceArea);
-            
+
             foreach (KeyValuePair<string, int> item in ingredientsForRectangleForm)
             {
-                Console.WriteLine($"{item.Key}: {item.Value} --> {GetConverterAmountOfIngredients(converter, item.Value):F0}");
+                Console.WriteLine($"{item.Key}: {item.Value} --> {GetConverterAmountOfIngredients(converter, item.Value):F1}");
             }
         } 
     }
