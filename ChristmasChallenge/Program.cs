@@ -4,7 +4,7 @@ public class Program
     public static void ShowDayMessage(int dayNumber)
     {
         Console.ForegroundColor= ConsoleColor.Green;
-        Console.WriteLine($"\n --- DAY {dayNumber} --- ");
+        Console.WriteLine($"\n\n --- DAY {dayNumber} --- ");
         Console.ForegroundColor = ConsoleColor.White;
     }
     public static void Main(string[] args)

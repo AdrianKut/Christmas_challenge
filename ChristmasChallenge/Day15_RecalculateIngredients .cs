@@ -81,7 +81,10 @@
 
             foreach (KeyValuePair<string, int> item in ingredientsForRectangleForm)
             {
-                Console.WriteLine($"{item.Key}: {item.Value} --> {GetConverterAmountOfIngredients(converter, item.Value):F1}");
+                Console.ForegroundColor= ConsoleColor.DarkYellow;
+                Console.Write($"{item.Key}: ");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write($"{item.Value} --> {GetConverterAmountOfIngredients(converter, item.Value):F1} \n");
             }
         } 
     }
