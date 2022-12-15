@@ -1,4 +1,6 @@
-﻿namespace ChristmasChallenge
+﻿using System.Globalization;
+
+namespace ChristmasChallenge
 {
     /**
      * Lista prezentów od dzieci przychodzi w jednym długim napisie.
@@ -11,8 +13,7 @@
     {
         public void ShowResult()
         {
-            String giftsList = "Kuba klocki klawiatura dron quad, Alicja komputer samochod mysz, "
-               + "Janina ksiazka traktor, Tomek kuchenka koparka flamastry, ";
+            String giftsList = "Kuba klocki klawiatura dron quad, Alicja komputer samochod mysz, Janina ksiazka traktor, Tomek kuchenka koparka flamastry, ";
 
             string[] childrenWithGift = giftsList.Trim().Split(' ');
 
@@ -27,10 +28,11 @@
                 }
                 if (childrenWithGift[i].Contains(','))
                 {
-                    Console.Write(childrenWithGift[i].Trim().Replace(',', ' '));
+                    Console.Write(childrenWithGift[i].Replace(',', ' '));
                     continue;
                 }
-                Console.Write(childrenWithGift[i].Trim() + ", ");
+
+                Console.Write(childrenWithGift[i] + ", ");
             }
         }
     }

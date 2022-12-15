@@ -36,5 +36,9 @@ public class Program
         ShowDayMessage(14);
         Day14_SplitPresentsList day14 = new Day14_SplitPresentsList();
         day14.ShowResult();
+
+        ShowDayMessage(15);
+        Day15_RecalculateIngredients day15 = new Day15_RecalculateIngredients();
+        day15.ShowResult();
     }
 }
