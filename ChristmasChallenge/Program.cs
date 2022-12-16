@@ -40,5 +40,9 @@ public class Program
         ShowDayMessage(15);
         Day15_RecalculateIngredients day15 = new Day15_RecalculateIngredients();
         day15.ShowResult();
+
+        ShowDayMessage(16);
+        Day16_FindOldestAndYoungest day16 = new Day16_FindOldestAndYoungest();
+        day16.ShowResult();
     }
 }
