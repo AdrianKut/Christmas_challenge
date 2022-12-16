@@ -2,6 +2,12 @@
 
 namespace ChristmasChallenge
 {
+    /**
+     * Mikołaj przygotował dodatkowe prezenty dla najmłodszego i najstarszego dziecka.
+     * Pomóż mu znaleźć je w liście.
+     * Wypisz na ekran znalezione dzieci wraz z informacja, które jest najstarsze, a które najmłodsze.
+     */
+
     internal class Day16_FindOldestAndYoungest : IShowResult
     {
         private static List<ChildWithBirthDate> prepareChildren()
@@ -40,6 +46,11 @@ namespace ChristmasChallenge
             {
                 Console.WriteLine(item);
             }
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Youngest => " + childWithBirths.First());
+            Console.WriteLine("Oldest => " + childWithBirths.Last());
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
