@@ -44,5 +44,9 @@ public class Program
         ShowDayMessage(16);
         Day16_FindOldestAndYoungest day16 = new Day16_FindOldestAndYoungest();
         day16.ShowResult();
+
+        ShowDayMessage(17);
+        Day17_ChristmasBall day17 = new Day17_ChristmasBall();
+        day17.ShowResult();
     }
 }
