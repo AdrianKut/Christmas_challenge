@@ -45,8 +45,13 @@ public class Program
         Day16_FindOldestAndYoungest day16 = new Day16_FindOldestAndYoungest();
         day16.ShowResult();
 
-        ShowDayMessage(17);
-        Day17_ChristmasBall day17 = new Day17_ChristmasBall();
-        day17.ShowResult();
+        //ShowDayMessage(17);
+        //Day17_ChristmasBall day17 = new Day17_ChristmasBall();
+        //day17.ShowResult();
+
+        Console.Clear();
+        ShowDayMessage(18);
+        Day18_SongPrompter day18 = new Day18_SongPrompter();
+        day18.ShowResult();
     }
 }
