@@ -39,7 +39,7 @@
             }
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"Santa Claus need {neededWrappingPaper/1000:F0}m2 wrapping papers for all gifts");
+            Console.WriteLine($"Santa Claus need {neededWrappingPaper/10000:F0}m2 wrapping papers for all gifts");
             Console.ForegroundColor = ConsoleColor.White;
         }
     }
