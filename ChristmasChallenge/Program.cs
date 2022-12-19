@@ -1,4 +1,6 @@
 ﻿using ChristmasChallenge;
+using ChristmasChallenge.Day_19;
+
 public class Program
 {
     public static void ShowDayMessage(int dayNumber)
@@ -49,9 +51,13 @@ public class Program
         //Day17_ChristmasBall day17 = new Day17_ChristmasBall();
         //day17.ShowResult();
 
-        Console.Clear();
-        ShowDayMessage(18);
-        Day18_SongPrompter day18 = new Day18_SongPrompter();
-        day18.ShowResult();
+        //Console.Clear();
+        //ShowDayMessage(18);
+        //Day18_SongPrompter day18 = new Day18_SongPrompter();
+        //day18.ShowResult();
+
+        ShowDayMessage(19);
+        Day19_WrappingPaper day19 = new Day19_WrappingPaper();
+        day19.ShowResult();
     }
 }
