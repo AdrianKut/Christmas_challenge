@@ -59,5 +59,10 @@ public class Program
         ShowDayMessage(19);
         Day19_WrappingPaper day19 = new Day19_WrappingPaper();
         day19.ShowResult();
+
+        ShowDayMessage(20);
+        Day20_JingleRhythm day20 = new Day20_JingleRhythm();
+        day20.ShowResult();
+
     }
 }
