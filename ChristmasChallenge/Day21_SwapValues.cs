@@ -19,12 +19,6 @@
             Console.WriteLine("Before switch: places = " + places);
             Console.WriteLine("Before switch: reindeers = " + reindeers);
 
-            //for (int i = places; i <= reindeers; i++)
-            //{
-            //    places += 10;
-            //    reindeers -= 10;
-            //}
-
             places = places ^ reindeers;
             reindeers = places ^ reindeers;
             places = places ^ reindeers;
