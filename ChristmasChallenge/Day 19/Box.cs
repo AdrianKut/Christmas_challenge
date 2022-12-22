@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChristmasChallenge.Day_19
+﻿namespace ChristmasChallenge.Day_19
 {
     internal class Box
     {

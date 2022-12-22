@@ -67,5 +67,9 @@ public class Program
         ShowDayMessage(21);
         Day21_SwapValues day21 = new Day21_SwapValues();
         day21.ShowResult();
+
+        ShowDayMessage(22);
+        Day22_GiftBoxRibbon day22 = new Day22_GiftBoxRibbon();
+        day22.ShowResult();
     }
 }
