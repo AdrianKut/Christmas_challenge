@@ -71,5 +71,9 @@ public class Program
         ShowDayMessage(22);
         Day22_GiftBoxRibbon day22 = new Day22_GiftBoxRibbon();
         day22.ShowResult();
+
+        ShowDayMessage(23);
+        Day23_ChristmasBow day23 = new Day23_ChristmasBow();
+        day23.ShowResult();
     }
 }

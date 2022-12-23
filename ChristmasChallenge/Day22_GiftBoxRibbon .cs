@@ -23,7 +23,7 @@ namespace ChristmasChallenge
 
         private double ChangeCmToM(double x)
         {
-            return x = x / 100;
+            return x / 100;
         }
 
         public double CalculateNeededRibbon(int a , int b)
@@ -33,7 +33,6 @@ namespace ChristmasChallenge
 
         public void ShowResult()
         {
-
             Box box = new Box(10,13,15);
             int boxesAmount = 5;
 
@@ -42,7 +41,7 @@ namespace ChristmasChallenge
 
             double neededRibbon = (firstPartForRibbon + secondPartForRibbon) * boxesAmount;
             neededRibbon = ChangeCmToM(neededRibbon);
-            Console.WriteLine($"Santa need {neededRibbon:f2}[m] of ribbon");
+            Console.WriteLine($"Santa needs {neededRibbon:f2}[m] of ribbon.");
         }
     }
 }
