@@ -1,4 +1,6 @@
-﻿namespace ChristmasChallenge
+﻿using System.Text;
+
+namespace ChristmasChallenge
 {
     /**
     * Mikołaj postanowił w tym roku skorzytać z pomocy nowoczesnych technologii.
@@ -22,6 +24,10 @@
         {
             if (i == height / 2 && increaseSize)
             {
+                StringBuilder sB = new StringBuilder();
+                sB.Append('-', height);
+                Console.Write($"{sB} \n{sB} \n");
+
                 height = 0;
                 increaseSize = false;
             }
@@ -69,5 +75,3 @@
         }
     }
 }
-
-
