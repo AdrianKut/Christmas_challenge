@@ -15,9 +15,9 @@ namespace ChristmasChallenge
         private void ShowPatternDependOfState(bool state)
         {
             if (state)
-                ShowSymbolWithColor('$', ConsoleColor.Red);
+                ConsoleColorizer.ShowSymbolWithColor('$', ConsoleColor.Red);
             else
-                ShowSymbolWithColor('$', ConsoleColor.Yellow);
+                ConsoleColorizer.ShowSymbolWithColor('$', ConsoleColor.Yellow);
         }
 
         private void DecreaseSizeAfterHalfChristmasBow(ref int height, ref bool increaseSize, int i)
@@ -33,12 +33,6 @@ namespace ChristmasChallenge
             }
         }
 
-        private void ShowSymbolWithColor(char symbol, ConsoleColor color)
-        {
-            Console.ForegroundColor = color;
-            Console.Write(symbol);
-            Console.ForegroundColor = ConsoleColor.White;
-        }
 
         public void ShowResult()
         {

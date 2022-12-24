@@ -75,5 +75,9 @@ public class Program
         ShowDayMessage(23);
         Day23_ChristmasBow day23 = new Day23_ChristmasBow();
         day23.ShowResult();
+
+        ShowDayMessage(24);
+        Day24_MerryChristmas day24 = new Day24_MerryChristmas();
+        day24.ShowResult();
     }
 }
